@@ -1,0 +1,20 @@
+﻿<Window x:Class="Kurs_rub_Vasilev_TTM_21.Add_image_url"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kurs_rub_Vasilev_TTM_21"
+        mc:Ignorable="d"
+        Title="Add_image_url" Height="200" Width="500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="URL"/><Run Language="ru-ru" Text=":"/></TextBlock>
+        <TextBox x:Name="turl" HorizontalAlignment="Left" Margin="57,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="416"/>
+        <TextBlock HorizontalAlignment="Left" Margin="66,66,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBox x:Name="nm1" HorizontalAlignment="Left" Margin="22,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="386,66,0,0" TextWrapping="Wrap" Text="Country" VerticalAlignment="Top"/>
+        <TextBox x:Name="Country" HorizontalAlignment="Left" Margin="347,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="otmena" Content="Cancel" HorizontalAlignment="Left" Margin="206,154,0,0" VerticalAlignment="Top" Click="otmena_Click"/>
+        <Button x:Name="okey" Content="OK" HorizontalAlignment="Left" Margin="250,154,0,0" VerticalAlignment="Top" Width="39" Click="okey_Click"/>
+
+    </Grid>
+</Window>
